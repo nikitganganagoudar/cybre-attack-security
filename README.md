@@ -43,16 +43,19 @@ Clone this repository to your local machine:
 Bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 cd YOUR_REPO_NAME
+
 2. Prepare the Data
 Ensure your dataset (cybersecurity.csv) is placed in the correct directory. If your path differs from the hardcoded path in the script, update the data_dir variable in the code:
 
 Python
 data_dir = r"./" # Current directory
+
 3. Run the Program
 Execute the script using the terminal:
 
 Bash
 python cyber_attack.py
+
 4. Training Phase
 The script will automatically:
 
